@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pak Game Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pak Game Lottery Predictor 🎰</h1>
+        <form method="post">
+            <input type="text" name="number" placeholder="Enter latest number (0–9)">
+            <button type="submit">Add Number</button>
+            <br><br>
+            <button name="predict" type="submit">Predict Next</button>
+        </form>
+        {% if prediction %}
+            <p class="result">🔮 Prediction: {{ prediction }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
