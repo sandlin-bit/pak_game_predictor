@@ -1,0 +1,24 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.container {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+.result {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #00ff90;
+}
